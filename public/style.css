@@ -1,1 +1,22 @@
+header {
+  font-family: Book Antiqua;
+  text-align: center;
+}
 
+h1 {
+  font-family: Book Antiqua;
+  color: DarkSeaGreen;
+  text-align: center;
+}
+
+.main {
+  text-align: center;
+}
+
+ul {
+    list-style-position: inside;
+}
+
+img {
+  text-align: center;
+}
