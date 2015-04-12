@@ -2,9 +2,8 @@
 
 <ul>
   <% $rolodex.contacts.each do |contact| %>
-    <li><%= contact.first_name %> <%= contact.last_name %> Email: <%= contact.email %> Note: <%=contact.note%></li>
+    <li>
+      <a href="/contacts/<%= contact.id %>"><%= contact.first_name %> <%= contact.last_name %></a> Email: <%= contact.email %> Note: <%=contact.note%>
+    </li>
   <% end %>
 </ul>
-<div class="main">
-  <a href="/"> Return to Main Menu </a>
-</div>
